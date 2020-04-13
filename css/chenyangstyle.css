@@ -1,0 +1,530 @@
+/* Style for the body of 7 pages */
+body{
+	background-image: url(../images/background2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    top: 0px;
+    left: 0px;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+
+}
+
+
+/* The menu and Pictures marquee on the first page (index.html) */
+.TopMenu{
+	position: relative;;
+	margin: 0px 100px;
+	width:80%;
+	height:40%;
+	border: 1px;
+}
+
+.TopMenu h1{
+	text-align: center;
+	color: tomato;
+	font-family: fantasy;
+	font-size: 75px;
+	top:20px;
+}
+
+.TopMenu marquee{
+	font-size: 25px;
+	font-family: serif;
+}
+.TopMenu hr{
+	height: 2px;
+	color: black;
+	background-color: black;
+}
+
+.TopMenu nav, .cit nav{
+	text-align: right;
+}
+
+.TopMenu nav ul li, .cit nav ul li{
+	display: inline;
+}
+
+.TopMenu nav a, .cit nav a{
+	text-decoration:none;
+	font-family:fantasy;
+	font-size: larger;
+}
+.TopMenu nav a:hover, .cit nav a:hover{
+	color: tomato;
+	
+}
+
+
+.TopMenu marquee.slide {
+	position: relative;
+	width:100%;
+}	
+.TopMenu img{
+	width: 100%;
+	height: auto;
+	background-size: 1000px 300px;
+}
+
+
+/* The brief Introduction of Changshu Section */
+.left{
+	position: relative;
+	width:100%;
+	border: 1px;
+	left:0px;
+}
+
+.left h3{
+	color: tomato;
+	font-family: fantasy;
+	font-weight: 600;
+}
+
+
+/* The Introduction of the websites Section */
+.right{
+	position: relative;
+	width:100%;
+	border: 1px;
+	left:0px;
+}
+.right h3{
+	color: tomato;
+	font-family: fantasy;
+	font-weight: 600;
+}
+
+
+/* The pictures sets style */
+#PicturesSet{
+	align-items: center;
+	width:1000px;
+	margin:auto auto auto auto;
+}
+
+.subpage{
+	border-radius:15px;
+	width:180px;
+	height:200px;
+	background-color:whitesmoke;
+	margin:15px;
+	float:left;
+	-webkit-box-shadow: 0 1px 3px whitesmoke;
+    -moz-box-shadow: 0 1px 3px whitesmoke;
+    box-shadow: 0 1px 3px whitesmoke;  
+	transition: box-shadow 0.2s ease-in-out;
+	-webkit-transition: box-shadow 0.1s ease-in-out;
+	-moz-transition: box-shadow 0.1s ease-in-out;
+}
+
+.subpage:hover{
+	-webkit-box-shadow: 0 0 16px tomato, 0 0 16px tomato;
+    -moz-box-shadow: 0 0 16px tomato,  0 0 16px tomato;
+    box-shadow: 0 0 16px tomato,  0 0 16px tomato; 
+}
+	
+
+.subpage img{
+	display:block;
+	width:100%;
+	-webkit-box-shadow: 0 0 1px whitesmoke;
+    -moz-box-shadow: 0 0 1px whitesmoke;
+    box-shadow: 0 0 1px whitesmoke;
+	border-radius:15px 15px 0 0;
+	opacity:0.5;
+	transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+
+}
+
+.subpage img:hover{
+	opacity:1;
+}
+
+
+.subpage h3{
+	font-family:fantasy;
+	font-size:100%;
+	padding:5px;
+	color:#2d2d2d;
+	text-decoration:none;
+}
+
+.subpage a{
+	text-decoration:none;
+	color:#2d2d2d;
+}
+
+
+/* Styles for contact section */
+.foot{
+
+	margin: 10px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+}
+
+.foot h1{
+	margin: 10px;
+	color:tomato;
+	font-family: fantasy;
+}
+.foot form{
+	margin:10px;
+	color:white;
+	font-family: fantasy;
+}
+
+.foot form textarea{
+	color: slategrey;
+}
+
+.foot form input.submit{
+	opacity: 0.8;
+	color: tomato;
+	font-size: 20px;
+	opacity:0.5;
+	transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+
+}
+
+.foot form input.submit:hover{
+	opacity: 1;
+}
+	
+.social{		
+		justify-content: right;
+		margin: 30px;
+}
+.social p{
+	font-family: fantasy;
+	font-size: larger;
+	font-weight: 800;
+	color: tomato;
+}
+
+
+
+
+/* Subpages main styles */
+.cit{
+	position: relative;;
+	margin: 0px 100px;
+	width:90%;
+	height:40%;
+	border: 1px;
+}
+
+/* Main Pictures style */
+.cit #scenery img, .right img{
+	border: 20px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	height:300px;
+	width:500px;
+	margin:5px;
+	padding:10px;
+}
+
+/* Download icon */
+.cit #scenery a img{
+	height:40px;
+	width:40px;
+}
+
+/* Titles and Introductions to the Pictures */
+.cit #scenery p, #cf p, .cit #scenery h5{
+	font-family: fantasy;
+	color:tomato;
+}
+
+.cit div.back a, .cit div.next a{
+	text-decoration: none;
+	color: blue;
+}
+
+.cit div.back a:hover,.cit div.next a:hover{
+	color:tomato;
+}
+.cit div.next{
+	float: right;
+}
+
+.sakuraimg{
+	width:50%;
+}
+
+
+/* School Games CIT website link */
+.cit #cf .gamesIntro{
+	text-align: center;
+	background-color: tomato;
+	margin: 0px;
+	padding: 5px;
+	font-size: larger;
+	letter-spacing: 4px;
+	opacity: 0.5;
+	transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+}
+
+.cit #cf .gamesIntro:hover{
+	opacity:1;
+}
+
+
+/* Yushan Hill Introduction Slide Style */
+.cit div.Slide{
+	float: right;
+	width: 40%;
+	height: 700px;
+	border-left: 1px solid none;
+}
+
+.cit div.Slide p{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: seagreen;
+	word-wrap: break-word;
+}
+
+#Bg{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.cit p{
+	color: tomato;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Crossfading Part on School games Images */
+@keyframes cfFadeInOut {
+	0% {
+	opacity:1;
+	}
+	45% {
+	opacity:1;
+	}
+	55% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+
+	#cf img{
+	height:300px;
+	width: 500px;
+	position: absolute;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+	}
+
+	#cf img.top{
+	animation-name: cfFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	}
+
+
+
+	 /* pop up login button style */
+	 #login-header{
+		text-align: left;
+		height: 30px;
+		line-height: 30px;
+	}
+	#login-header a{
+		font-size: 24px;
+		text-decoration: none;
+		color: black;
+	}
+	
+	/* Login table style */
+	.login{
+		position: absolute;
+		width: 512px;
+		height: 284px;
+		z-index: 9999;
+		display: none;
+		background-color: white;
+
+		left: 50%;
+		margin-left: -256px;
+		margin-top: 142px;
+		border: 1px solid gray;
+	}
+
+	.login-title{
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 20px;
+		cursor: move;
+	}
+	.login-title span a{
+		text-decoration: none;
+		border: 1px solid gray;
+		font-size: 12px;
+		color: black;
+		border-radius: 20px;
+		width: 40px;
+		height: 40px;
+		background-color: #fff;
+		position: absolute;
+		top: -20px;
+		right: -20px;
+	}
+	
+	.login-input{
+		margin: 20px 0px 30px 0px;
+	}
+	.login-input label{
+		float: left;
+		height: 35px;
+		line-height: 35px;
+		width: 90px;
+		padding-left: 10px;
+		text-align: right;
+		font-size: 14px;
+	}
+	.login-input input.list-input{
+		height: 35px;
+		line-height: 35px;
+		width: 350px;
+		text-indent: 5px;
+	}
+	/* Login button */
+	.loginSubmit{
+		width: 260px;
+		height: 40px;
+		text-align: center;
+		border: 1px solid gray;
+		background-color: white;
+		margin-left: 120px;
+		
+	}
+	
+	/* cover layer style */
+	.bg{
+		background-color: #000;
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left:0px;
+		position: fixed;
+		opacity: 0.3;
+		-webkit-opacity: 0.3;
+		-moz-opacity: 0.3;
+		display: none;
+	}
+
+	iframe{
+		width: 560px;
+		height: 315px;
+		border: 0px;
+	}
+	
+
+/* Styles especially for mobile screen or other screens whose width is between 300px and 600px */
+	@media screen and (min-width: 300px) and (max-width:600px){
+		/* TopMenu on the home page */
+		.TopMenu{
+			position: relative;
+			margin: 0px 40px;
+			width:80%;
+			height:40%;
+			border: 10px;
+		}
+	
+		/* Main div on the sub pages */
+		.cit{
+			position: relative;;
+			margin: 0px 40px;
+			width:90%;
+			height:40%;
+			border: 1px;
+		}
+
+		/* Crossfading Part about School games Images on small screens*/
+		#cf img{
+			height:100px;
+			width: 200px;
+			position: fixed;
+			-webkit-transition: opacity 1s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-o-transition: opacity 1s ease-in-out;
+			transition: opacity 1s ease-in-out;
+			}
+
+		/* Yushan Hill Introduction Slide style on small screens */
+		.cit div.Slide{
+			text-align: center;
+			width: 100%;
+			height: 300px;
+			border-left: 1px solid none;
+		}
+
+		/* Pictures display style */
+		.cit #scenery img, .right img{
+			border: 20px;
+			border-radius: 20px;
+			-webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			height:280px;
+			width:400px;
+			margin:5px;
+			padding:2px;
+		}
+	
+		/* Pictures sets style */
+		.subpage{
+			border-radius:15px;
+			width:300px;
+			height:300px;
+			background-color:whitesmoke;
+			margin:15px;
+			text-align: center;
+			-webkit-box-shadow: 0 1px 3px whitesmoke;
+			-moz-box-shadow: 0 1px 3px whitesmoke;
+			box-shadow: 0 1px 3px whitesmoke;  
+			transition: box-shadow 0.2s ease-in-out;
+			-webkit-transition: box-shadow 0.1s ease-in-out;
+			-moz-transition: box-shadow 0.1s ease-in-out;
+		}
+		#PicturesSet{
+			width:300px;
+			margin:auto auto auto auto;
+		}
+	
+		/* Contact Part*/
+		.foot{
+	
+			margin: 10px;
+			background-color: grey;
+			display: inline;
+			flex-direction: column;
+		}
+		
+	}
+	

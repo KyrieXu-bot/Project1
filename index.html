@@ -1,193 +1,114 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-
-    
-    
-<title>Liquid Gem</title>
-
-    
-<meta name="description" content="Replace this text with a summary of your website. i.e. John Smith - Web Developer and Photographer - Welcome to my portfolio website! Here you will find all of my latest work. Enjoy!">
+    <head>
+        <title>Project1</title>
+        <link rel="icon" href="images/icons/CIT.ico" type="image/x-icon"/> <!-- Small Icon near the title -->
+        <link rel="stylesheet" type="text/css" href="css/chenyangstyle.css"> <!-- CSS -->
+        <script src="javascript/index.js"></script> <!-- Javascript -->
+        <meta charset="UTF-8"> <!-- Adapt to the display of some Chinese Characters -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" /> <!-- Adapt to different devices(mobile,etc) -->
+    </head>
 
 
- 
+    <body>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="scripts/jquery.carouFredSel-5.5.2.js" type="text/javascript"></script>
-<script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="scripts/jquery.form.js"></script> 
-<script type="text/javascript" src="scripts/scripts.js"></script> 
-</head>
+        <!-- Main div -->
+        <div class="TopMenu">
+            <br>
+            <h4>All pictures provided by Changshu Photographer/CIT Student - Chenyang Xu</h4>
+            <h1>Changshu photography</h1>
+            <marquee behavior="alternate" scrollamount="10" class="marquee">Welcome to Changshu!</marquee>
 
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
 
-<body>
-<div class="wrapper">
-	<div id="top">
-        <div>
-            <h1 id="logotitle">常熟摄影爱好者</h1>	<!-- Logo text -->
-        </div><!--/logo-->
-    
-        <nav>	<!-- Navigation Start -->
-            <ul>
-            	<li><a href="#top">HOME</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>      
-        </nav>	<!-- Navigation End -->
-    </div><!--/top-->
-    
-    
-    <hr/><!-- Horizontal Line -->
-    
-    
-    <header>	<!-- Header Title Start -->
-    	<h1>大家好，我是徐晨旸。欢迎来到我的个人摄影主页！</h1>
-        <h2>&ndash; 常熟风光摄影爱好者 &ndash;</h2>
-    </header>	<!-- Header Title End -->
-    <section id="slideshow">	<!-- Slideshow Start -->
-        <div class="html_carousel">
-			<div id="slider">
-            
-				<div class="slide">
-					<img src="images/slideshow/sliderimage1.jpg" width="3000" height="783" alt="image 1"/><!-- Replace these images with your own but make sure they are 3000px wide and 783px high or the same ration -->
-				</div><!--/slide-->
-                
-				<div class="slide">
-					<img src="images/slideshow/sliderimage2.jpg" width="3000" height="783" alt="image 2"/><!-- Replace these images with your own but make sure they are 3000px wide and 783px high or the same ration -->
-				</div><!--/slide-->
-                
-                <div class="slide">
-					<img src="images/slideshow/sliderimage3.jpg" width="3000" height="783" alt="image 3"/><!-- Replace these images with your own but make sure they are 3000px wide and 783px high or the same ration -->
-				</div><!--/slide-->
-                
-			</div><!--/slider-->
-			<div class="clearfix"></div>
-		</div><!--/html_carousel-->
-    </section>	<!-- Slideshow End -->
-    
-    
-    <aside id="about" class=" left"> <!-- Text Section Start -->
-    	<h3>about me</h3><!-- Replace all text with what you want -->
-    	<p>Hey there, my name is Xu Chenyang and I am a photographer and web developer! This is my brand new portfolio. It's super cool because it's completely responsive! That means you can re-size it to whatever size you like and it always looks great. Have a look around and enjoy.</p>
-    </aside>
-    <aside class="right">
-    	<h3>my work</h3>
-    	<p>Below, you will be able to find lots of my work. I take loads of pretty pictures and I also make websites. If you like what you see then you can contact me below! Maybe you would like to hire me or just have a chat, either way, I look forward to hearing from you.</p>
-    </aside>
-    <div class="clearfix"></div> <!-- Text Section End -->
-    
-    
-    <section id="work"> <!-- Work Links Section Start -->
-    	<div class="item">
-        	<a href="work-template.html"><img src="images/work/thumbs/item.png" alt="image 1"></a><!-- Image must be 400px by 300px -->
-            <h3>Sky of Changshu</h3><!--Title-->
-            <p>photography</p><!--Category-->
-        </div><!--/item-->
-        
-        <div class="item">
-        	<a href="work-template2.html"><img src="images/work/thumbs/item2.png" alt="image 2"></a><!-- Image must be 400px by 300px -->
-        	<h3>Beautiful Scenery</h3><!--Title-->
-            <p>photography</p><!--Category-->
-        </div><!--/item-->
-        
-        <div class="item">
-        	<a href="work-template3.html"><img src="images/work/thumbs/item3.png" alt="image 3"></a><!-- Image must be 400px by 300px -->
-        	<h3>Delicious local food</h3><!--Title-->
-            <p>photography</p><!--Category-->
-        </div><!--/item-->
-        
-        <div class="item">
-        	<a href="work-template4.html"><img src="images/work/thumbs/item4.png" alt="image 4"></a><!-- Image must be 400px by 300px -->
-        	<h3>Sakura</h3><!--Title-->
-            <p>photography</p><!--Category-->
-        </div><!--/item-->
-        
-        <div class="item">
-        	<a href="work-template5.html"><img src="images/work/thumbs/item5.png" alt="image 5"></a><!-- Image must be 400px by 300px -->
-        	<h3>Snow</h3><!--Title-->
-            <p>photography</p><!--Category-->
-        </div><!--/item-->
+            <hr>
 
-    </section> <!-- Work Links Section End -->
-    
-    
-    <section id="bottom"> <!-- Last Words Section Start -->
-    	<h3>Thanks for looking at my new website!</h3>
-    </section><!-- Last Words Section End-->
-</div>
+            <!-- Image Marquee -->
+                <marquee behavior="scroll" scrollamount="10" direction=down width="100%" height="600" onMouseOut="this.start()" onMouseOver="this.stop()">
+                    <div class="slide"><img src="images/slideshow/slideshow1.jpg" alt="slideshow1"></div>
+                    <div class="slide"><img src="images/slideshow/slideshow2.jpg" alt="slideshow2"></div>
+                    <div class="slide"><img src="images/slideshow/slideshow3.jpg" alt="slideshow3"></div>
+                    <div class="slide"><img src="images/slideshow/slideshow4.jpg" alt="slideshow4"></div>
+                    <div class="slide"><img src="images/slideshow/slideshow5.jpg" alt="slideshow5"></div>
+                </marquee>
 
-<!-- TO MAKE THE PHP FORM WORK, ALL YOU NEED TO DO IS OPEN UP THE FILE CALLED 'submitemail.php' AND CHANGE WHERE IT SAYS 'your email goes here' -->
+            <!-- Brief introduction to Changshu -->
+                <div class="left">
+                    <h3 id="about">About Changshu</h3>
+                    <p>Changshu,a historical city regarded as "the international garden city" and "the Chinese clothing city", has a population of 1.05 million. It is located in the southeast part of Jiangsu Province, also in the prosperous district along the Yangtze River. To the east is Shanghai and to the south is Suzhou. On the west is Wuxi while the Yangtze River is on its northern border. It adjoins places such as (= Also located along its border are the famous) Hangzhou, Nanjing, Yangchow and so on..
+                        Changshu has crystal clear waters and green hills, the scenery is beautiful and the weather is pleasant. Its average temperature is 6 degrees Celcius in winter and 27 in summer. It was named "Changshu" after the abundant harvest, year after year. It is nationally known for its beautiful mountains, scenic river, and abundant (natural) produces and resources.</p>
+                </div>
 
-<!-- DON'T TOUCH THIS SECTION -->
+            <!-- Purpose of this Website -->
+                <div class="right">
+                    <h3>Themes and Pictures Set</h3>
+                    <p>Below, you will be able to find lots of photography by Chenyang Xu. He had hobbies of photography, and he makes websites, too. We want to better appreciate and understand the natural and cultural beauty of Changshu and CIT through the photos he took. So below are some good pictures taken by him, and you can make a contact if you want to know more about us. <br>-Publicity of Student Union, Changshu Institute of Technology</p>
+                    <img src="images/slideshow/chenyang1.jpg" alt="chenyang1">
+                    <img src="images/slideshow/chenyang2.jpg" alt="chenyang2">
+                </div>
+        </div>
 
-<footer id="footer">
-	<div class="wrapper">
-    	<section class="left">
-    	<h4>Contact</h4>
-            <div id="formwrap">
-                <form method="post" id="submitform" action="submitemail.php" >
-                            <input type="text" class="formstyle" title="Name" name="name" />
-                            <input type="text" class="formstyle" title="Email" name="email" id="email1"/>
-                            <textarea name="message" title="Message"></textarea>
-                            <input class="formstyletwo" type="submit" value="Send" id="bt">  
-                </form>
+        <!-- Pictures Sets which can be linked to other websites -->
+        <section id="PicturesSet">
+            <div class="subpage">
+                <a href="subweb1WithWatermark.html"><img src="images/work/previews/preview1.png" alt="preview1"></a>
+                <h3>Changshu Institute of Technology</h3>
+
             </div>
-            <div id="error"></div>
+            
+            <div class="subpage">
+                <a href="subweb2WithWatermark.html"><img src="images/work/previews/preview2.png" alt="preview2"></a>
+                <h3>Beautiful Scenery</h3>
+
+            </div>
+            
+            <div class="subpage">
+                <a href="subweb3.html"><img src="images/work/previews/preview3.png" alt="preview3"></a>
+                <h3>Delicious local food</h3>
+                
+            </div>
+            
+            <div class="subpage">
+                <a href="subweb4.html"><img src="images/work/previews/preview4.png" alt="preview4"></a>
+                <h3>Sakura</h3>
+            </div>
+            
         </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
 
-<!-- DON'T TOUCH THIS SECTION END -->        
-        
-    	<section class="right social"> <!-- Social Icons Start -->
-		<a href="http://www.smallseashell.com"><img class="icon" src="images/icons/google.png" width="32" height="32" alt="google"></a><!-- Replace with any 32px x 32px icons -->
-        <a href="http://www.smallseashell.com"><img class="icon" src="images/icons/youtube.png" width="32" height="32" alt="youtube"></a><!-- Replace with any 32px x 32px icons -->
-        <a href="http://www.smallseashell.com"><img class="icon" src="images/icons/facebook.png" width="32" height="32" alt="facebook"></a><!-- Replace with any 32px x 32px icons -->
-        <a href="http://www.smallseashell.com"><img class="icon" src="images/icons/twitter.png" width="32" height="32" alt="twitter"></a><!-- Replace with any 32px x 32px icons -->
-        </section> <!-- Social Icons End -->
-        <p>lets get social - </p>
-        </section> <!-- Social Icons End -->
-    </div>
-    <div class="clearfix"></div>
-</footer>
+        <!-- Contact Information(Email or Social Apps -->
+        <footer class="foot">
+            <h1 id="contact">contact</h1>
+            <form class="form">
+                Your name:<br>
+                <input type="text" name="name">
+                <br>
+                Your email address:<br>
+                <input type="text" name="address">
+                <br>
+                Messages:<br>
+                <textarea rows="6" cols="40">Message...</textarea>
+                <br><br>
+                <input onclick="myFunction()" class="submit" type="submit" value="Submit">
+            </form> 
 
-<!-- SLIDESHOW SCRIPT START -->
-<script type="text/javascript">
-$("#slider").carouFredSel({
-	responsive	: true,
-	scroll		: {
-		fx			: "crossfade",
-		easing		: "swing",
-		duration	: 1000,
-		
-	},
-	items		: {
-		visible		: 1,
-		height		: "27%"
-	}
-});
-</script>
-    //邮箱正则验证
-<script type="text/javascript">
-    $(document).ready(function(){
-     $("#bt").click(function(){
-      if($("#email1").val()=="")
-      {
-       alert("邮箱不能为空");
-       return false;
-      }
-      var email=$("#email1").val();
-      if(!email.match(/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/))
-      {
-       alert("格式不正确！请重新输入");
-       $("#email1").focus();
-      }
-     })
-})
-</script>
-<!-- SLIDESHOW SCRIPT END -->
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-</body>
+
+            <div class="social">
+                <p>You can also contact me thorugh:</p>
+                <a href="http://www.google.com"><img class="icon" src="images/icons/google.png" width="32" height="32" alt="google"></a>
+                <a href="http://www.youtube.com"><img class="icon" src="images/icons/youtube.png" width="32" height="32" alt="youtube"></a>
+                <a href="https://www.facebook.com/chenyang.xu.7528"><img class="icon" src="images/icons/facebook.png" width="32" height="32" alt="facebook"></a>
+                <a href="https://twitter.com/XChenyang"><img class="icon" src="images/icons/twitter.png" width="32" height="32" alt="twitter"></a>
+                
+            </div>
+        </footer>
+    </body>
 </html>

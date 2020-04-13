@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>sakura World!</title>
+    <link rel="icon" href="images/icons/CIT.ico" type="image/x-icon"/> <!--Small Icon near the title-->
+    <link rel="stylesheet" type="text/css" href="css/chenyangstyle.css" ><!--CSS-->
+    <script src="javascript/index.js"></script> <!--Javascript-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" /> <!--Adapt to different devices(mobile,etc)-->
+    <meta charset="UTF-8"> <!--Adapt to the display of some Chinese Characters-->
+</head>
+
+    <body>
+
+        <div class="cit">
+            
+            <div id="top">
+                <div>
+                    <h1>常熟的樱花</h1>
+                    <h2>The sakura in Changshu</h2>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                </ul>
+            </nav>
+            
+            
+            <hr>
+            
+            
+            <header>
+            
+                <h2>photography by Kyrie Xu</h2>
+
+                <p>常熟的樱花最有名的就数护城河旁的樱花了。每到每年三四月开春时，樱花盛开，游人络绎不绝。</p>
+                <p>The most famous sakuras in Changshu are the ones next to the moat. Every year when the spring of March or April begins, the sakura are in full bloom, and visitors are endless.</p>
+
+            </header>
+            
+            <div class="sakuraimg">
+                <section id="scenery">
+                    <img src="images/work/sakura/sakura1.jpg" alt="sakura1">
+                    <h5>- 樱花夜景</h5>
+                    <h5>- The Night of The sakura</h5>
+                    <img src="images/work/sakura/sakura2.jpg" alt="sakura2">
+                    <h5>- 白天樱花1</h5>
+                    <h5>- The Daytime of The sakura(1)</h5>
+                    <img src="images/work/sakura/sakura3.jpg" alt="sakura3">
+                    <h5>- 白天樱花2</h5>
+                    <h5>- The Daytime of The sakura(2)</h5>
+                    <img src="images/work/sakura/sakura4.jpg" alt="sakura4">
+                    <h5>- 白天樱花3</h5>
+                    <h5>- The Daytime of The sakura(3)</h5>
+                </section>
+            
+                <br><br>
+
+
+                <!-- Vote Display Part-->
+                <div>
+                    <h4>Vote for your favourite Picture!</h4>
+                    <p>Chenyang is currently preparing for a cherry blossom photography contest held by the Changshu Photography Association. The above are actually the photos you have seen that Chenyang is choosing to participate. Choose one of your favorite votes for him!</p>
+                    <table id="main">
+
+                        <!-- Picture name list -->
+
+                        <!-- The number of votes is displayed by the number of votes and different colored columns -->
+                        <tr>
+                            <td>
+                                <input type="radio" name="option" checked="checked">The Night of The sakura
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:550px">
+                                <div id=0 style="background-color:#acd6ff; width:0; height:20px; border-width:0px;">
+                                </div>
+                            </td>
+                            <td>
+                                <label id="label0">0</label>票
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="option">The Daytime of The sakura(1)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id=1 style="background-color:#0066cc; height:20px; width:0; border-width:0px; border-color:blue; border-style:solid ; text-align:right;" ></div>
+                                
+                            </td>
+                            <td>
+                            <label id="label1">0</label>票
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <input type="radio" name="option">The Daytime of The sakura(2)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id=2 style="background-color:#ff7575; height:20px;width:0;  border-width:0px; border-color:blue; border-style:solid ; text-align:right;" ></div>
+                                
+                            </td>
+                            <td>
+                            <label id="label2">0</label>票
+                            </td>
+                        </tr>	
+                        <tr>
+                            <td>
+                                <input type="radio" name="option" >The Daytime of The sakura(3)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id=3 style="background-color:#5cadad;height:20px;width:0; border-width:0px; border-color:blue; border-style:solid ; text-align:right;" ></div>
+                                
+                            </td>
+                            <td>
+                            <label id="label3">0</label>票
+                            </td>
+                        </tr>
+                    
+                    </table>
+                </div>
+                <div>
+
+                    <!-- Submit your vote -->
+                    <input onclick="voteFunction()" type="submit" value="submit">
+                </div>
+            </div>
+
+
+            
+
+
+            <!-- Click the button to return to the last page or come to next page(home) -->
+ 
+                <div class="back">
+                    <a href="/subweb3.html">&larr; back page</a>
+                </div>
+
+                <div class="next">
+                    <a href="/index.html">next page &rarr;</a>
+                </div>
+            <br><br>
+            <hr>
+            <br><br>
+
+            <!-- Pictures Sets which can be linked to other websites -->
+            <section id="PicturesSet">
+                <div class="subpage">
+                    <a href="subweb1WithWatermark.html"><img src="images/work/previews/preview1.png" alt="preview1"></a>
+                    <h3>Changshu Institute of Technology</h3>
+
+                </div>
+                
+                <div class="subpage">
+                    <a href="subweb2WithWatermark.html"><img src="images/work/previews/preview2.png" alt="preview2"></a>
+                    <h3>Beautiful Scenery</h3>
+
+                </div>
+                
+                <div class="subpage">
+                    <a href="subweb3.html"><img src="images/work/previews/preview3.png" alt="preview3"></a>
+                    <h3>Delicious local food</h3>
+                    
+                </div>
+                
+                <div class="subpage">
+                    <a href="subweb4.html"><img src="images/work/previews/preview4.png" alt="preview4"></a>
+                    <h3>sakura</h3>
+                </div>
+                
+                
+                
+            </section>
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <!-- Contact Information(Email or Social Apps -->
+        <footer class="foot">
+            <h1 id="contact">contact</h1>
+            <form class="form">
+                Your name:<br>
+                <input type="text" name="name">
+                <br>
+                Your email address:<br>
+                <input type="text" name="address">
+                <br>
+                Messages:<br>
+                <textarea rows="6" cols="40">Message...</textarea>
+                <br><br>
+                <input onclick="myFunction()" class="submit" type="submit" value="Submit">
+            </form> 
+
+
+            <div class="social">
+                <p>You can also contact me thorugh:</p>
+                <a href="http://www.google.com"><img class="icon" src="images/icons/google.png" width="32" height="32" alt="google"></a>
+                <a href="http://www.youtube.com"><img class="icon" src="images/icons/youtube.png" width="32" height="32" alt="youtube"></a>
+                <a href="https://www.facebook.com/chenyang.xu.7528"><img class="icon" src="images/icons/facebook.png" width="32" height="32" alt="facebook"></a>
+                <a href="https://twitter.com/XChenyang"><img class="icon" src="images/icons/twitter.png" width="32" height="32" alt="twitter"></a>
+                
+            </div>
+        </footer>
+
+    </body>
+</html>
+

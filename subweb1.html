@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<!-- This is the sub web page1 which has had account verification to download the pictures -->
+<html>
+    <head>  
+        <title>Beautiful College</title>
+        <link rel="icon" href="images/icons/CIT.ico" type="image/x-icon"/> <!-- Small Icon near the title -->
+        <link rel="stylesheet" type="text/css" href="css/chenyangstyle.css"><!--CSS-->
+        <script src="javascript/index.js"></script> <!--Javascript-->
+        <meta charset="UTF-8"> <!-- Adapt to the display of some Chinese Characters -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" /> <!-- Adapt to different devices(mobile,etc) -->
+    </head>
+
+    <body>
+
+        <!-- Main div -->
+        <div class="cit">
+            <h1>常熟理工学院</h1>
+            <h3>Changshu Institute of Technology</h3>
+
+            <!-- Navigation(return to the home page) -->
+            <nav>
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                </ul>
+            </nav>
+            <hr>
+
+            <!-- Pictures and Introduction -->
+            <div id="scenery">
+                <h3>CIT, a beautiful gallery!</h3>
+                <img src="images/work/cit/scenery1.jpg" alt="scenery1">
+                <img src="images/work/cit/scenery2.jpg" alt="scenery2">
+                <img src="images/work/cit/scenery3.jpg" alt="scenery3">
+                <img src="images/work/cit/scenery4.jpg" alt="scenery4">
+                <p>Thanks to the photos provided by Chenyang, we can better appreciate the campus scenery of CIT. The streets of the school are covered with maple trees. When autumn comes, the maple leaves of the school fall down and the scenery is beautiful. The campus is full of youth and scholarship.</p>
+                <br>
+
+                <!-- Download Link -->
+                <p>↓ Download the pictures without watermark ↓</p>
+                <a href="/images/work/cit/scenery.zip" download="CITscenery">
+                    <img src="images/download.png" alt="Download Here">
+                </a>               
+            </div>
+
+            <hr>
+
+            <!-- Crossfading Pictures -->
+            <div id="cf">
+                <h3>14th School Games Silhouettes in 2017</h3>
+                <img class="button" src="images/work/cit/schoolgames1.JPG" alt="schoolgames1">
+                <img class="top" src="images/work/cit/schoolgames2.JPG" alt="schoolgames2">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+                <!-- A link to CIT website where it has detailed school games news -->
+                <div class="gamesIntro">
+                    <p><a href="http://news.cslg.edu.cn/index/read/id/74366" target="_blank">&lt;&lt;For more news about 14th School Games, VISIT HERE &gt;&gt;</a></p>
+                </div>
+
+                <!-- School games Introduction -->
+                <p>The school holds an annual school sports meeting every fall. At the beginning, the students will perform to cheer, sing and dance, and celebrate the success of the school sports meeting. Then came the players. As the principal announced the start of the games, a three-day contest began between the athletes. On the playing field, the students struggled with each other and the spirit of fighting was high, which reflected the spirit of never giving up in the games.</p>
+            </div>
+
+            <!-- Click the button to return to the last page or come to next page -->
+            <div class="back">
+                <a href="/index.html">&larr; back page</a>
+            </div>
+
+            <div class="next">
+                <a href="/subweb2WithWatermark.html">next page &rarr;</a>
+            </div>
+
+        </div>
+        <br><br>
+        <hr>
+        <br><br>
+
+        <!-- Pictures Sets which can be linked to other websites -->
+        <section id="PicturesSet">
+            <div class="subpage">
+                <a href="subweb1WithWatermark.html"><img src="images/work/previews/preview1.png" alt="preview1"></a>
+                <h3>Changshu Institute of Technology</h3>
+
+            </div>
+            
+            <div class="subpage">
+                <a href="subweb2WithWatermark.html"><img src="images/work/previews/preview2.png" alt="preview2"></a>
+                <h3>Beautiful Scenery</h3>
+
+            </div>
+            
+            <div class="subpage">
+                <a href="subweb3.html"><img src="images/work/previews/preview3.png" alt="preview3"></a>
+                <h3>Delicious local food</h3>
+                
+            </div>
+            
+            <div class="subpage">
+                <a href="subweb4.html"><img src="images/work/previews/preview4.png" alt="preview4"></a>
+                <h3>Sakura</h3>
+            </div>
+                      
+        </section>
+     
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <!-- Contact Information(Email or Social Apps -->
+        <footer class="foot">
+            <h1 id="contact">contact</h1>
+            <form class="form">
+                Your name:<br>
+                <input type="text" name="name">
+                <br>
+                Your email address:<br>
+                <input type="text" name="address">
+                <br>
+                Messages:<br>
+                <textarea rows="6" cols="40">Message...</textarea>
+                <br><br>
+                <input onclick="myFunction()" class="submit" type="submit" value="Submit">
+            </form> 
+
+
+            <div class="social">
+                <p>You can also contact me thorugh:</p>
+                <a href="http://www.google.com"><img class="icon" src="images/icons/google.png" width="32" height="32" alt="google"></a>
+                <a href="http://www.youtube.com"><img class="icon" src="images/icons/youtube.png" width="32" height="32" alt="youtube"></a>
+                <a href="https://www.facebook.com/chenyang.xu.7528"><img class="icon" src="images/icons/facebook.png" width="32" height="32" alt="facebook"></a>
+                <a href="https://twitter.com/XChenyang"><img class="icon" src="images/icons/twitter.png" width="32" height="32" alt="twitter"></a>
+                
+            </div>
+        </footer>
+    </body>
+</html>
